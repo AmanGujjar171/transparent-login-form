@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+body {
+    background:
+        url(./bridge-53769_1280.jpg) no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.form {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    backdrop-filter: blur(8px);
+    width: 450px;
+    height: 450px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.form h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.username {
+    width: 100%;
+    position: relative;
+    height: 50px;
+    margin: 40px 0px;
+}
+
+.username input {
+    height: 100%;
+    border-radius: 40px;
+    color: white;
+    width: 80%;
+    padding: 20px 0px 20px 30px;
+    background: transparent;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    font-size: 16px;
+}
+
+.username input::placeholder {
+    font-size: large;
+    color: white;
+}
+
+.username box-icon{
+    font-size: 20px;
+    position: absolute;
+    right: 60px ;
+    top: 30%;
+    transform: translate(-50%);
+}
+
+
+
+
+.userpassword {
+    width: 100%;
+    position: relative;
+    height: 50px;
+    margin: 40px 0px;
+}
+
+.userpassword input {
+    height: 100%;
+    border-radius: 40px;
+    color: white;
+    width: 80%;
+    padding: 20px 0px 20px 30px;
+    background: transparent;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    font-size: 16px;
+}
+
+.userpassword input::placeholder {
+    font-size: large;
+    color: white;
+}
+
+.userpassword box-icon{
+    font-size: 20px;
+    position: absolute;
+    right: 60px ;
+    top: 30%;
+    transform: translate(-50%);
+}
+
+
+
+.forgetpassword{
+    display: flex;
+    justify-content: space-around;
+
+}
+.forgetpassword a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.form button{
+    width: 100%;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    background: #fff;
+    height: 50px;
+    border-radius: 40px;
+    margin: 20px 0px  ;
+    padding: 0px 50px;
+    font-size: 16px;
+   
+}
+
+
+.register-link p{
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+.register-link p a{
+    color: #fff;
+    text-decoration: none;
+}
